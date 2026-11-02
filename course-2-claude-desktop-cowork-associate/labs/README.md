@@ -27,3 +27,10 @@ Files are in the `demo-files` folder. Scenario: Harbor Ridge Credit Union, a fic
 - **[Lab 2: Scheduled Task Automation](lab-2-scheduled-task-automation.md)**
 - **[Lab 3: Batch + Plugin Capstone](lab-3-batch-plugin-capstone.md)**
 - **[Lab 4: Data Plugin Dashboard (take-home)](lab-4-data-plugin-dashboard.md)**
+
+---
+
+## Related
+
+- **[Demos guide](../demos/README.md)** — the 7 instructor-led demos for this course, one file per demo.
+- **[Combined demos guide](../demos.md)** — all demos in a single document.

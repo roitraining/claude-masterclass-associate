@@ -21,3 +21,10 @@ The files are in `demo-files`. Work on copies. Every person, company and figure 
 - **[Lab 2: Cross-App Deliverable Sprint](lab-2-cross-app-deliverable-sprint.md)**
 - **[Lab 3: PowerPoint Plays Capstone](lab-3-powerpoint-plays-capstone.md)**
 - **[Lab 4: Connector Briefing Automation (take-home)](lab-4-connector-briefing-automation.md)**
+
+---
+
+## Related
+
+- **[Demos guide](../demos/README.md)** — the 6 instructor-led demos for this course, one file per demo.
+- **[Combined demos guide](../demos.md)** — all demos in a single document.

@@ -23,3 +23,10 @@ Claude Code can word things differently each time. Check your result against the
 - **[Lab 2: Subagent Team Sprint](lab-2-subagent-team-sprint.md)**
 - **[Lab 3: Legacy API Modernization Capstone](lab-3-legacy-api-modernization-capstone.md)**
 - **[Lab 4: Hooks and Governance (take-home)](lab-4-hooks-and-governance.md)**
+
+---
+
+## Related
+
+- **[Demos guide](../demos/README.md)** — the 9 instructor-led demos for this course, one file per demo.
+- **[Combined demos guide](../demos.md)** — all demos in a single document.

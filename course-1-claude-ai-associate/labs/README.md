@@ -23,3 +23,10 @@ To swap to healthcare or government, keep every file's structure and replace the
 - **[Lab 2: Scoring a Portfolio of Skill Candidates](lab-2-scoring-a-portfolio-of-skill-candidates.md)**
 - **[Lab 3: Connector + Artifact Capstone](lab-3-connector-artifact-capstone.md)**
 - **[Lab 4: Research Deep Dive (take-home)](lab-4-research-deep-dive.md)**
+
+---
+
+## Related
+
+- **[Demos guide](../demos/README.md)** — the 6 instructor-led demos for this course, one file per demo.
+- **[Combined demos guide](../demos.md)** — all demos in a single document.
