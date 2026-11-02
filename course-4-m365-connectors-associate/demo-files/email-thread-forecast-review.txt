@@ -1,0 +1,61 @@
+From: Dana Whitfield <dana.whitfield@harborpeak.example>
+To: Priya Raman <priya.raman@harborpeak.example>; Marcus Oyelaran <marcus.oyelaran@harborpeak.example>
+Cc: Elena Vasquez <elena.vasquez@harborpeak.example>
+Date: Mon, 12 Oct 2026 08:41
+Subject: FY2027 forecast: board pack needs your read by Thursday
+Attachment: harbor-peak-forecast-model.xlsx
+
+Team,
+
+The attached workbook is the current FY2027 and FY2028 forecast. The board pack goes out Friday. I need a one-page memo and a short deck from it, and I need to know if anything in the model looks wrong before the board sees it.
+
+Priya, please sanity-check revenue. Marcus, please check costs and tax.
+
+Thanks,
+Dana
+
+----------------------------------------------------------------------
+From: Priya Raman <priya.raman@harborpeak.example>
+To: Dana Whitfield <dana.whitfield@harborpeak.example>
+Cc: Marcus Oyelaran; Elena Vasquez
+Date: Mon, 12 Oct 2026 11:15
+Subject: RE: FY2027 forecast: board pack needs your read by Thursday
+
+Dana,
+
+Total revenue on the Revenue tab looks low to me compared with the service-line numbers. I have not had time to trace it. Also, Elena mentioned a 4 percent growth figure on a call last week, but the model uses 6 percent. Which one is current?
+
+Priya
+
+----------------------------------------------------------------------
+From: Marcus Oyelaran <marcus.oyelaran@harborpeak.example>
+To: Dana Whitfield; Priya Raman
+Cc: Elena Vasquez
+Date: Mon, 12 Oct 2026 14:02
+Subject: RE: FY2027 forecast: board pack needs your read by Thursday
+
+All,
+
+I am out Tuesday and Wednesday. The after-tax number on the Summary tab does not match the net income on the P&L tab, and I do not know why. Please do not send the pack until that is resolved. Also the board will ask about marketing spend; I think it grew more than the other cost lines.
+
+Marcus
+
+----------------------------------------------------------------------
+From: Elena Vasquez <elena.vasquez@harborpeak.example>
+To: Dana Whitfield; Priya Raman; Marcus Oyelaran
+Date: Tue, 13 Oct 2026 09:30
+Subject: RE: FY2027 forecast: board pack needs your read by Thursday
+
+Quick clarification: the 4 percent was a downside scenario, not the plan. Plan growth stays at 6 percent. The board audience is the finance committee, so keep the memo to what changed and what needs a decision.
+
+Elena
+
+----------------------------------------------------------------------
+From: Dana Whitfield <dana.whitfield@harborpeak.example>
+To: Priya Raman; Marcus Oyelaran; Elena Vasquez
+Date: Tue, 13 Oct 2026 10:12
+Subject: RE: FY2027 forecast: board pack needs your read by Thursday
+
+Thanks all. I will be in meetings until 3. Whoever gets to it first, please start the memo. Decisions needed: approve the FY2027 forecast, and confirm the tax rate we present.
+
+Dana

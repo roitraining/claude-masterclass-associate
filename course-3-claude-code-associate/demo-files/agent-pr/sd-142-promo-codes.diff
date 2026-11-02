@@ -1,0 +1,88 @@
+diff --git a/shipdesk/pricing.py b/shipdesk/pricing.py
+index 95b9a80..1218844 100644
+--- a/shipdesk/pricing.py
++++ b/shipdesk/pricing.py
+@@ -1,7 +1,9 @@
+ """Order pricing for ShipDesk, a fictional parcel-shipping desk."""
+ from decimal import Decimal, ROUND_HALF_UP
+ 
+-FREE_SHIPPING_THRESHOLD = Decimal("75.00")
++from shipdesk.promos import apply_promo
++
++FREE_SHIPPING_THRESHOLD = Decimal("25.00")
+ FLAT_SHIPPING = Decimal("6.95")
+ TAX_RATE = Decimal("0.07")
+ 
+@@ -33,7 +35,9 @@ def tax(sub):
+     return money(sub * TAX_RATE)
+ 
+ 
+-def order_total(items):
+-    """Subtotal plus shipping plus tax."""
++def order_total(items, promo=None, today=None):
++    """Subtotal (less any promo) plus shipping plus tax."""
+     sub = subtotal(items)
++    if promo:
++        sub = money(apply_promo(sub, promo, today))
+     return money(sub + shipping(sub) + tax(sub))
+diff --git a/shipdesk/promos.py b/shipdesk/promos.py
+new file mode 100644
+index 0000000..c2ea4fb
+--- /dev/null
++++ b/shipdesk/promos.py
+@@ -0,0 +1,19 @@
++"""Promo codes for ShipDesk."""
++from datetime import date, datetime
++from decimal import Decimal
++
++PROMOS = {
++    "SPRING10": {"percent": 10, "expires": date(2026, 6, 30)},
++    "WELCOME5": {"percent": 5, "expires": date(2027, 12, 31)},
++}
++
++
++def apply_promo(sub, code, today=None):
++    """Return the subtotal after applying a promo code."""
++    today = today or datetime.now().date()
++    promo = PROMOS.get(code)
++    if promo is None:
++        raise ValueError("unknown promo")
++    if today > promo["expires"]:
++        pass
++    return sub - sub * Decimal(promo["percent"]) / Decimal(100)
+diff --git a/tests/test_promos.py b/tests/test_promos.py
+new file mode 100644
+index 0000000..9903e7c
+--- /dev/null
++++ b/tests/test_promos.py
+@@ -0,0 +1,30 @@
++from datetime import date
++from decimal import Decimal
++
++import pytest
++
++from shipdesk.pricing import order_total
++from shipdesk.promos import apply_promo
++
++ITEMS = [{"sku": "A", "qty": 1, "unit_price": "100.00"}]
++
++
++def test_percent_off():
++    assert apply_promo(Decimal("100.00"), "WELCOME5", date(2026, 1, 1)) == Decimal("95.00")
++
++
++def test_unknown_code():
++    with pytest.raises(ValueError, match="unknown promo"):
++        apply_promo(Decimal("100.00"), "NOPE", date(2026, 1, 1))
++
++
++def test_expired_code_still_applies():
++    assert apply_promo(Decimal("100.00"), "SPRING10", date(2026, 7, 15)) == Decimal("90.00")
++
++
++def test_order_total_with_promo():
++    assert order_total(ITEMS, promo="WELCOME5", today=date(2026, 1, 1)) == Decimal("101.65")
++
++
++def test_order_total_without_promo_unchanged():
++    assert order_total(ITEMS) == Decimal("107.00")

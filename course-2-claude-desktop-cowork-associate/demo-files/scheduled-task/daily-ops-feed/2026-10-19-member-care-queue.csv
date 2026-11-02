@@ -1,0 +1,6 @@
+case_id,opened,category,age_days,status
+MC-4401,2026-10-02,Fee dispute,17,Open
+MC-4412,2026-10-09,Wire delay,10,Open
+MC-4420,2026-10-12,Card dispute,7,Open
+MC-4431,2026-10-15,Fee dispute,4,Open
+MC-4433,2026-10-16,Fraud allegation,3,Open

@@ -1,0 +1,11 @@
+id,claude_answer,claude_citation,score_1_or_0,error_category
+1,$10 per month,Section 1.1,,
+2,$0 because the member meets the balance condition,Section 1.1,,
+3,$155 in total,Sections 2.1 and 2.2,,
+4,$108 (4 x $27),Section 1.2,,
+5,$2.40,Section 3.2,,
+6,$0 because the member is over 62,Section 1.3,,
+7,$40,Section 3.1,,
+8,$10,Section 4.1,,
+9,$12,Section 2.2,,
+10,The 2026 fee schedule does not list this fee,none,,

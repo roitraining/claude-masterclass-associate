@@ -1,0 +1,3 @@
+method,start_time,end_time,minutes,files_processed,errors_found
+One at a time (first 3 files only),,,,3,
+Parallel batch (all files),,,,14,

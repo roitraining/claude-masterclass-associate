@@ -1,0 +1,41 @@
+request_id,opened_date,category,branch,status,days_open,priority,member_ref,summary
+SR-4001,2026-09-22,Cards,Eastgate,Closed,5,Normal,M-1597,Reports lost card
+SR-4002,2026-09-22,Cards,Eastgate,Closed,2,Normal,M-1093,Replacement card not received
+SR-4003,2026-09-23,Cards,Eastgate,Open,23,High,M-1163,Reports lost card
+SR-4004,2026-09-25,Fees,Harbor Street,Closed,4,Normal,M-1479,Foreign transaction fee question
+SR-4005,2026-09-25,Online banking,Northfield,Closed,5,Normal,M-1011,Locked out after failed sign-ins
+SR-4006,2026-09-26,Cards,Northfield,Closed,6,Normal,M-1768,Requests rush replacement card
+SR-4007,2026-09-27,Online banking,Harbor Street,Closed,3,High,M-1445,Cannot reset password
+SR-4008,2026-09-27,Fees,Eastgate,Closed,6,Normal,M-1269,Foreign transaction fee question
+SR-4009,2026-09-28,Wires,Eastgate,Closed,5,Normal,M-1891,Asks wire cutoff time
+SR-4010,2026-09-28,Online banking,Harbor Street,Closed,6,Normal,M-1203,Cannot reset password
+SR-4011,2026-09-28,Online banking,Northfield,Closed,2,Normal,M-1797,Locked out after failed sign-ins
+SR-4012,2026-09-28,Fees,Northfield,Open,18,Normal,M-1500,Disputes overdraft fee
+SR-4013,2026-09-29,Other,Northfield,Closed,3,Normal,M-1851,Name change on account
+SR-4014,2026-09-29,Fees,Northfield,Closed,2,Normal,M-1969,Disputes overdraft fee
+SR-4015,2026-09-29,Wires,Eastgate,Closed,4,Normal,M-1778,Asks wire cutoff time
+SR-4016,2026-10-01,Fees,Harbor Street,Closed,2,Normal,M-1969,Foreign transaction fee question
+SR-4017,2026-10-01,Online banking,Harbor Street,Closed,5,Normal,M-1433,Cannot reset password
+SR-4018,2026-10-01,Wires,Northfield,Open,15,Normal,M-1706,Incoming wire fee question
+SR-4019,2026-10-03,Fraud,Eastgate,Closed,4,High,M-1687,Suspicious text claiming to be the credit union
+SR-4020,2026-10-03,Online banking,Northfield,Closed,5,Normal,M-1253,Cannot reset password
+SR-4021,2026-10-03,Fees,Northfield,Closed,1,Normal,M-1235,Foreign transaction fee question
+SR-4022,2026-10-05,Fraud,Harbor Street,Closed,1,High,M-1724,Unrecognized debit transactions
+SR-4023,2026-10-05,Other,Harbor Street,Closed,1,Normal,M-1072,Request for tax form copy
+SR-4024,2026-10-06,Fees,Northfield,Closed,6,Normal,M-1552,Asks why maintenance fee was charged
+SR-4025,2026-10-08,Cards,Northfield,Closed,5,Normal,M-1248,Reports lost card
+SR-4026,2026-10-08,Fees,Eastgate,Closed,2,High,M-1674,Paper statement fee question
+SR-4027,2026-10-08,Cards,Harbor Street,Closed,4,Normal,M-1746,Replacement card not received
+SR-4028,2026-10-08,Cards,Harbor Street,Closed,6,High,M-1412,Requests rush replacement card
+SR-4029,2026-10-09,Wires,Eastgate,Open,7,Normal,M-1111,Incoming wire fee question
+SR-4030,2026-10-11,Fees,Eastgate,Open,5,Normal,M-1549,Paper statement fee question
+SR-4031,2026-10-11,Cards,Harbor Street,Open,5,High,M-1187,Requests rush replacement card
+SR-4032,2026-10-11,Fees,Northfield,Open,5,Normal,M-1895,Disputes overdraft fee
+SR-4033,2026-10-12,Wires,Eastgate,Open,4,Normal,M-1882,Asks wire cutoff time
+SR-4034,2026-10-13,Fees,Eastgate,Closed,2,Normal,M-1856,Disputes overdraft fee
+SR-4035,2026-10-13,Fraud,Eastgate,Open,3,High,M-1948,Unrecognized debit transactions
+SR-4036,2026-10-14,Online banking,Eastgate,Closed,1,Normal,M-1885,Mobile deposit limit question
+SR-4037,2026-10-14,Fees,Eastgate,Open,2,High,M-1002,Paper statement fee question
+SR-4038,2026-10-15,Cards,Northfield,Closed,1,Normal,M-1713,Reports lost card
+SR-4039,2026-10-15,Other,Eastgate,Closed,1,Normal,M-1059,Request for tax form copy
+SR-4040,2026-10-16,Wires,Eastgate,Open,0,High,M-1321,Incoming wire fee question

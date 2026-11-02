@@ -1,0 +1,61 @@
+application_id,date,branch,product,amount_usd,status,days_to_decision,credit_score
+LA-3001,2026-08-07,Eastgate,Credit card,5030,Approved,13,691
+LA-3002,2026-06-05,Eastgate,Home equity,44510,Approved,9,767
+LA-3003,2026-09-24,Harbor North,Credit card,7340,Pending,11,600
+LA-3004,2026-05-08,Harbor North,Auto loan,15690,Pending,1,759
+LA-3005,2026-05-17,harbor north,Personal loan,8970,Approved,11,635
+LA-3006,2026-07-21,Eastgate,Auto loan,28710,Approved,7,701
+LA-3007,2026-05-17,Harbor North,Personal loan,7950,Approved,1,577
+LA-3008,2026-06-13,Harbor North,Credit card,3490,Approved,1,776
+LA-3009,2026-04-16,Harbor North,Home equity,51270,Declined,12,661
+LA-3010,2026-05-25,Harbor Nrth,Auto loan,26630,Approved,6,582
+LA-3011,2026-07-25,Main Street,Personal loan,5520,Approved,3,623
+LA-3012,2026-07-06,Harbor North,Auto loan,15690,Pending,4,674
+LA-3013,2026-07-04,Harbor South,Home equity,63520,Declined,7,614
+LA-3014,2026-08-10,Harbor North,Personal loan,12400,Approved,4,607
+LA-3015,2026-05-07,Eastgate,Auto loan,,Declined,5,562
+LA-3016,2026-04-03,Main Street,Personal loan,8530,Approved,10,722
+LA-3017,2026-06-20,Harbor South,Auto loan,27390,Declined,3,805
+LA-3018,2026-05-21,Eastgate,Home equity,89690,Approved,5,792
+LA-3019,2026-05-24,Harbor South,Home equity,81440,Pending,4,735
+LA-3020,2026-07-02,Eastgate,Credit card,-5000,Approved,2,569
+LA-3021,2026-07-09,Main Street,Home equity,82280,Declined,14,791
+LA-3022,2026-09-03,Eastgate,Personal loan,9610,Approved,4,682
+LA-3023,2026-05-24,Harbor North,Personal loan,7120,Approved,2,628
+LA-3024,2026-04-06,Eastgate,Credit card,4120,Approved,6,695
+LA-3025,09/31/2026,Harbor South,Auto loan,22220,Pending,10,802
+LA-3026,2026-07-12,Harbor South,Auto loan,34350,Approved,1,565
+LA-3027,2026-06-11,Harbor North,Credit card,3300,Approved,2,579
+LA-3028,2026-09-24,Eastgate,Personal loan,11370,Approved,13,806
+LA-3029,2026-07-03,Main Street,Personal loan,6090,Declined,13,567
+LA-3030,2026-07-13,Eastgate,Auto loan,27900,Pending,999,715
+LA-3031,2026-04-09,Harbor North,Auto loan,16360,Declined,12,644
+LA-3032,2026-08-03,Eastgate,Credit card,4980,Pending,13,691
+LA-3033,2026-07-01,Harbor North,Personal loan,10270,Approved,12,588
+LA-3033,2026-04-12,Eastgate,Credit card,4150,Approved,3,733
+LA-3035,2026-06-22,Harbor South,Home equity,83100,Declined,8,788
+LA-3036,2026-06-07,Harbor South,Personal loan,8680,Declined,13,766
+LA-3037,2026-08-11,Harbor South,Home equity,61490,Approved,3,594
+LA-3038,2026-04-23,Eastgate,Personal loan,12180,Approved,5,770
+LA-3039,2026-06-07,Harbor South,Auto loan,24130,Declined,7,720
+LA-3040,2026-08-15,Eastgate,Personal loan,11200,Approved,2,772
+LA-3041,2026-04-22,Harbor North,Personal loan,12470,Approved,10,650
+LA-3042,2026-07-15,Main Street,Auto loan,28250,Approved,1,756
+LA-3043,2026-04-21,Main Street,Home equity,84590,Approved,8,587
+LA-3044,2026-05-27,Main Street,Auto loan,29190,Declined,5,605
+LA-3045,2026-04-06,Harbor North,Credit card,5410,approved ,5,759
+LA-3046,2026-09-08,Main Street,Home equity,62020,Approved,7,798
+LA-3047,2026-05-21,Eastgate,Home equity,65350,Approved,7,700
+LA-3048,2026-05-04,Main Street,Credit card,4470,Approved,4,622
+LA-3049,2026-08-26,Eastgate,Auto loan,35510,Approved,5,792
+LA-3050,2026-04-15,Harbor North,Personal loan,9490,Approved,9,667
+LA-3051,2026-05-26,Main Street,Credit card,7140,Approved,7,
+LA-3052,2026-09-26,Harbor North,Home equity,70190,Approved,8,598
+LA-3053,2026-09-03,Eastgate,Credit card,5610,Approved,8,694
+LA-3054,2026-08-09,Main Street,Home equity,69580,Approved,11,657
+LA-3055,2026-08-17,Harbor South,Personal loan,12290,Approved,10,687
+LA-3056,2026-08-01,Harbor South,Credit card,5410,Pending,7,567
+LA-3057,2026-08-04,Harbor North,Credit card,5450,Declined,2,736
+LA-3058,2026-07-14,Harbor South,Auto loan,34510,Declined,5,623
+LA-3059,2026-07-27,Eastgate,Credit card,3570,Declined,9,641
+LA-3060,2026-04-09,Harbor North,Home equity,63540,Approved,12,759

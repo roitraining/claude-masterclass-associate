@@ -1,0 +1,11 @@
+tool_name,what_it_does,access,data_returned
+get_member_summary,Returns a member's name and membership tier and list of open products,read,Name and tier and product names only
+search_service_tickets,Searches service requests by category or branch or status or date range,read,Ticket id and category and status and summary
+get_fee_schedule,Returns the current published fee schedule,read,Public fee table
+get_full_member_record,Returns the complete member file,read,Tax ID and date of birth and full account numbers and address
+update_member_address,Changes the mailing address on a member file,write,Writes to the member file
+create_service_ticket,Opens a new service request on behalf of a member,write,Creates a ticket record
+send_member_email,Sends an email to a member from the credit union domain,write,Sends external email
+run_sql_query,Runs any SQL statement the caller supplies against the member database,read,Anything in the database
+list_branch_hours,Returns hours for each branch,read,Public hours
+close_account,Closes a member account and releases the balance,write,Moves money and ends the account

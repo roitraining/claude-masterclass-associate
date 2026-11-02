@@ -1,0 +1,50 @@
+{
+  "manifest_version": "0.3",
+  "name": "pinecrest-knowledge",
+  "display_name": "Pinecrest Knowledge Folder",
+  "version": "1.0.0",
+  "description": "Read-only access to a Pinecrest operations knowledge folder.",
+  "long_description": "A teaching extension for Claude MasterClass Associate, Course 2. It gives Claude read-only access to one folder you choose, so the folder is available in every session instead of being attached per chat. It can list documents, read one by name, and search across them. It refuses any path outside the folder you select, which is the boundary students test in Demo 2. No network access, no writes, no dependencies.",
+  "author": {
+    "name": "ROI Training"
+  },
+  "license": "MIT",
+  "keywords": ["training", "knowledge-base", "read-only", "claude-masterclass"],
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js", "${user_config.knowledge_folder}"]
+    }
+  },
+  "tools": [
+    {
+      "name": "list_documents",
+      "description": "List every document in the knowledge folder."
+    },
+    {
+      "name": "read_document",
+      "description": "Read one document from the knowledge folder by name."
+    },
+    {
+      "name": "search_documents",
+      "description": "Search the knowledge folder for a phrase and return matching lines."
+    }
+  ],
+  "user_config": {
+    "knowledge_folder": {
+      "type": "directory",
+      "title": "Knowledge folder",
+      "description": "The folder Claude may read. Select the knowledge-folder you copied from the course files. Claude cannot read anything outside it.",
+      "required": true,
+      "multiple": false
+    }
+  },
+  "compatibility": {
+    "platforms": ["darwin", "win32"],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}

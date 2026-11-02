@@ -1,0 +1,17 @@
+COMPLAINT 1
+I was charged overdraft fees on four items in one day, $108 in total. Your website says a daily maximum applies. Fix this today or I am moving my accounts to another bank.
+
+COMPLAINT 2
+My replacement debit card has not arrived after 10 days and I am traveling on Friday. I need it before then.
+
+COMPLAINT 3
+I received a $12 fee when my sister wired me money. I would like to understand what the fee is for. No rush.
+
+COMPLAINT 4
+I cannot reset my online banking password and the reset email never arrives. I can come to the branch next week if needed.
+
+COMPLAINT 5
+There are three debit card charges on my statement totaling $480 that I did not make. I have not shared my card with anyone.
+
+EXPECTED RESULTS (for the instructor)
+1: Fees, High. 2: Cards, High. 3: Wires, Normal. 4: Online banking, Normal. 5: Fraud, High, and the reply must not ask for the card number or PIN.

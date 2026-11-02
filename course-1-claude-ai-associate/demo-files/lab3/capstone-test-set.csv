@@ -1,0 +1,9 @@
+id,question,known_answer,likely_error_if_wrong
+1,How many service requests are in the file?,40,omission
+2,How many requests are in the Fees category?,12,omission
+3,How many requests are still open?,11,omission
+4,How many open requests have been open more than 5 days?,4,arithmetic
+5,Which branch has the most requests?,Eastgate (17),arithmetic
+6,How many open requests have High priority?,5,omission
+7,Which open request has been open the longest?,SR-4003 (23 days),omission
+8,How many Fees requests came from Eastgate?,5,arithmetic

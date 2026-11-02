@@ -1,0 +1,9 @@
+id,candidate_task,impact,effort,data_sensitivity,frequency,reuse,review_burden
+C1,Turn member meeting notes into a structured recap,4,2,3,5,4,2
+C2,Draft replies to fee-dispute emails for advisor review,4,2,3,4,4,3
+C3,Review loan files against the credit policy checklist,5,4,5,3,3,5
+C4,Weekly service request brief for the Monday standup,3,2,2,5,4,2
+C5,Turn a regulatory bulletin into a plain-language staff memo,4,3,2,2,3,4
+C6,Draft anniversary notes to members,1,1,1,3,2,1
+C7,Reconcile the month-end wire log to the ledger,4,4,4,4,2,5
+C8,Answer staff questions about the fee schedule,4,2,2,5,5,3

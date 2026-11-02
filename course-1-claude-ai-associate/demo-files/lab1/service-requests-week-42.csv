@@ -1,0 +1,13 @@
+request_id,opened_date,category,branch,status,days_open,priority,summary
+SR-4101,2026-10-12,Fees,Eastgate,Open,4,High,Member disputes four overdraft fees charged in one day
+SR-4102,2026-10-12,Cards,Northfield,Closed,2,Normal,Replacement debit card requested after card was damaged
+SR-4103,2026-10-13,Wires,Harbor Street,Closed,1,Normal,Question about incoming wire fee
+SR-4104,2026-10-13,Online banking,Eastgate,Open,3,Normal,Cannot reset online banking password
+SR-4105,2026-10-13,Fraud,Northfield,Open,3,High,Unrecognized debit transactions totaling $480
+SR-4106,2026-10-14,Cards,Eastgate,Open,2,High,"Replacement card not received, member travels Friday"
+SR-4107,2026-10-14,Fees,Harbor Street,Closed,2,Normal,Request to waive monthly maintenance fee
+SR-4108,2026-10-14,Other,Northfield,Open,2,Normal,Request for updated branch hours flyer
+SR-4109,2026-10-15,Wires,Eastgate,Open,1,Normal,International wire still pending after two days
+SR-4110,2026-10-15,Fees,Eastgate,Closed,1,Normal,Foreign transaction fee question
+SR-4111,2026-10-16,Online banking,Harbor Street,Open,0,Normal,Mobile deposit limit question
+SR-4112,2026-10-16,Fees,Northfield,Open,0,Normal,Paper statement fee charged to member over 62

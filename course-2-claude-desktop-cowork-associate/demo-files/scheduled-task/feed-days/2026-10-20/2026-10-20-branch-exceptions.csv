@@ -1,0 +1,4 @@
+branch,exception_type,count,largest_amount_usd
+Harbor North,Overdraft waiver,3,150
+Harbor South,Overdraft waiver,5,640
+Main Street,Wire callback missed,2,22000

@@ -1,0 +1,1 @@
+Scratch notes. Safe to delete. Fictional file used to test delete behavior in the demo.

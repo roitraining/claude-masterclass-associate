@@ -1,0 +1,6 @@
+[
+  {"id": "SD-1001", "customer": "Northwind Pottery", "items": [{"sku": "MUG-01", "qty": 4, "unit_price": "12.50"}]},
+  {"id": "SD-1002", "customer": "Lakeside Books", "items": [{"sku": "BAG-07", "qty": 30, "unit_price": "3.20"}, {"sku": "TAPE-2", "qty": 2, "unit_price": "4.10"}]},
+  {"id": "SD-1003", "customer": "Fernhill Garden Supply", "items": [{"sku": "POT-33", "qty": 12, "unit_price": "8.75"}]},
+  {"id": "SD-1004", "customer": "Corner Bike Shop", "items": [{"sku": "TUBE-9", "qty": 1, "unit_price": "9.99"}]}
+]

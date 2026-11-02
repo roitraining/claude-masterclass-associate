@@ -1,0 +1,11 @@
+id,question,known_answer,section,likely_error_if_wrong
+1,What is the monthly maintenance fee for Basic Checking?,$8,1.1,stale source
+2,A member has $350 in monthly direct deposits and a $1800 average daily balance. What maintenance fee applies?,$0 (waived by the balance condition),1.1,omission
+3,A member sends 3 domestic wires and 2 international wires in a month. What are the total outgoing wire fees?,$165 (3 x $25 + 2 x $45),2.1 and 2.2,arithmetic
+4,A member overdraws on 4 items in one day. What overdraft fees are charged?,$81 (3 x $27; the daily cap is 3 fees),1.2,omission
+5,A member makes a $240 purchase abroad. What is the foreign transaction fee?,$2.40 (1.0 percent),3.2,stale source
+6,A 66-year-old member wants paper statements. What is the monthly fee?,$0 (waived at age 62 or older),1.3,omission
+7,What does a replacement debit card with rush delivery cost?,$40 ($10 + $30),3.1,arithmetic
+8,A member makes 8 savings withdrawals in a month. What excess withdrawal fees apply?,$10 (2 excess x $5),4.1,arithmetic
+9,What is the fee for an incoming wire? Cite the section.,$12 and Section 2.3,2.3,citation mismatch
+10,What is the fee for using an out-of-network ATM?,The 2026 fee schedule does not list this fee,none,omission

@@ -1,0 +1,9 @@
+fee,amount_usd,notes
+Domestic wire (outgoing),20,
+International wire (outgoing),45,
+Incoming wire,10,
+Overdraft,25,Limit of 3 per day
+Stop payment,30,
+Paper statement,3,Waived for members over 65
+Cashier's check,8,
+Account research (per hour),40,
